@@ -1,0 +1,12 @@
+@use "partials/variables" as *;
+@use "partials/mixin" as *;
+@use "partials/reset" as *;
+
+
+main{
+    color: $main-color;
+}
+
+p{
+    @include main-coloring;
+}
