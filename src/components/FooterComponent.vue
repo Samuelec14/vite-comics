@@ -20,22 +20,55 @@ export default {
                 <div class="flex-container">
                     <div>
                         <div>
-                            prova
+                            <h2>dc comics</h2>
+                            <ul>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                            </ul>
                         </div>
-                        <div>
-                            prova
+                        <div id="">
+                            <h2>shop</h2>
+                            <ul>
+                                <li>sda</li>
+                                <li>sda</li>
+                            </ul>
                         </div>
                     </div>
     
                     <div>
                         <div>
-                            prova
+                            <h2>dc</h2>
+                            <ul>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                            </ul>
                         </div>
                     </div>
     
                     <div>
                         <div>
-                            prova
+                            <h2>sites</h2>
+                            <ul>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                                <li>sda</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -55,20 +88,32 @@ footer{
     
 
     #sec-1-footer{
-        height: 400px;
         background-color: lightgray;
+        text-align: left;
 
         .container{
 
 
             .flex-container{
-                padding: 50px ;
+                padding: 20px ;
 
-                div{
+
+                >div{
                     margin-inline-end: 100px;
 
-                    span{
+                    >div{
 
+
+
+                        h2{
+                            font-size: 27px;
+                            padding: 18px 0;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                        li{
+                            list-style: none;
+                        }
                     }
                 }
             }
