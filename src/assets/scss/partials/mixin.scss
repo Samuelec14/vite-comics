@@ -6,3 +6,8 @@
     background-color: $main-color;
     color: $secondary-color;
 }
+
+@mixin debug{
+    background-color: aquamarine;
+    border: 2px dashed black;
+}

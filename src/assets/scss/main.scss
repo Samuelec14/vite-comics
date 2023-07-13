@@ -3,8 +3,31 @@
 @use "partials/reset" as *;
 
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+.col-6{
+    width: calc((100% / 12) * 6);
+}
+.col-8{
+    width: calc((100% / 12) * 8);
+}
+.debug{
+    background-color: aquamarine;
+    border: 2px dashed black;
+}
 main{
     color: $main-color;
+}
+header{
+    @include debug;
 }
 
 p{

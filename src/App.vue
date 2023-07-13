@@ -23,12 +23,12 @@ export default {
 </script>
 
 <template>
+  
+      <HeaderComponent />
 
-<HeaderComponent />
+      <MainComponent />
 
-<MainComponent />
-
-<FooterComponent />
+      <FooterComponent />
 
 </template>
 
