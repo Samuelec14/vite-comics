@@ -17,11 +17,13 @@ export default {
         <div class="container">
             <div class="row">
     
-                <div id="header-lt-col" class="col-4 debug">
-                    <div>LOGO</div>
+                <div id="header-lt-col" class="col-4">
+                    <div class="img-container">
+                        <img src="../assets/img/dc-logo.png" alt="">
+                    </div>
                 </div>
     
-                <div id="header-rt-col" class="col-8 debug">
+                <div id="header-rt-col" class="col-8">
                     <span>characters</span>
                     <span>comics</span>
                     <span>movies</span>
@@ -37,6 +39,9 @@ export default {
     
             </div>
         </div>
+        <div class="jumbotron">
+            
+        </div>
     </header>
 
 </template>
@@ -51,8 +56,13 @@ header{
         .row{
             height: 130px;
 
-            .col-6{
-            height: 100%;
+            #header-lt-col{
+                padding: 15px;
+
+                .img-container{
+                    width: 27%;
+                }
+
             }
             #header-rt-col{
                 line-height: 120px;
@@ -67,6 +77,10 @@ header{
                 }
             }
         }
+    }
+    .jumbotron{
+        background-image: url(../assets/img/jumbotron.jpg);
+        height: 400px;
     }
     
 }

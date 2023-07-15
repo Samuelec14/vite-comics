@@ -29,10 +29,8 @@
 main{
     color: $main-color;
 }
-header{
-    @include debug;
-}
 
-p{
-    @include main-coloring;
-}
+
+// p{
+//     @include main-coloring;
+// }

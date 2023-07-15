@@ -112,18 +112,33 @@ export default {
                 <div class="container">
                     <div class="row">
                         <div class="col-2-10">
+                            <div>
+                                <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                            </div>
                             <span>digital comics</span>
                         </div>
                         <div class="col-2-10">
+                            <div>
+                                <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                            </div>
                             <span>dc merchandise</span>
                         </div>
                         <div class="col-2-10">
+                            <div>
+                                <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                            </div>
                             <span>subscription</span>
                         </div>
                         <div class="col-2-10">
+                            <div>
+                                <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                            </div>
                             <span>comic shop locator</span>
                         </div>
                         <div class="col-2-10">
+                            <div>
+                                <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                            </div>
                             <span>dc power visa</span>
                         </div>
                     </div>
@@ -155,10 +170,10 @@ main{
                     text-transform: uppercase;
                     position: absolute;
                     left: 0;
-                    top: -20px;
+                    top: -29px;
                     background-color: rgb(2, 130, 249);
                     line-height: 0;
-                    padding: 20px 14px;
+                    padding: 28px 14px;
                 }
                 .products{
                     display: flex;
@@ -200,12 +215,19 @@ main{
 
                 .col-2-10{
                     width: calc((100% / 10) * 5);
-                    line-height: 170px;
                     
+
+                    >div{
+                        display: inline-block;
+                        vertical-align: middle;
+                        width:30%;
+                        padding-right:16px;
+                    }
                     span{
                         color: white;
                         text-transform: uppercase;
                         font-size: small;
+                        line-height: 170px;
                     }
                 }
             }
