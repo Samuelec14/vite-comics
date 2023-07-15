@@ -1,6 +1,11 @@
 <script>
+import SingleProduct from './SingleProduct.vue';
+
 export default {
     name: "MainComponent",
+    components: {
+        SingleProduct
+    },
     data() {
     return{
         products: [
@@ -91,17 +96,23 @@ export default {
         
             <section id="sec-1-main">
                 <div class="container">
-                    <H2>CURRENT SERIES</H2>
+                    <H2>CURRENT SERIES</H2> 
 
                     <div class="products">
-                        <div class="product" v-for="(product, productIndex) in products" :key="productIndex">
-                            <div class="img-container">
-                                <img :src="product.thumb" :alt="product.series">
+                        <SingleProduct v-for="(product, productIndex) in products" :key="productIndex"
+                            :productThumb="product.thumb"
+                            :productSeries="product.series"/>
+
+                        <!-- <div class="products">
+                            <div class="product" v-for="(product, productIndex) in products" :key="productIndex">
+                                <div class="img-container">
+                                    <img :src="product.thumb" :alt="product.series">
+                                </div>
+                                <h3>{{product.series}}</h3>
+                                
                             </div>
-                            <h3>{{product.series}}</h3>
                             
-                        </div>
-                        
+                        </div> -->
                     </div>
                     
 
